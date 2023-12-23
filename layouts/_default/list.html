@@ -1,0 +1,10 @@
+Hello!
+
+Here are the list of pages:
+<ul>
+    {{range .Pages}}
+    <li>
+        <a href="{{.RelPermalink}}">{{.Title}}</a>
+    </li>
+    {{end}}
+</ul>
